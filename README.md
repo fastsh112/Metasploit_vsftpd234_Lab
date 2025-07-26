@@ -1,2 +1,2 @@
 # Metasploit_vsftpd234_Lab
-Automatically deploy a penetration testing workshop lab environment consisting of attacking Kali Linux EC2 instances and target Ubuntu EC2 instances running a vulnerable version of vsftpd 2.3.4.
+Automatically deploy a penetration testing workshop lab environment consisting of attacking Kali Linux EC2 instances and target Ubuntu EC2 instances running a vulnerable version of vsftpd 2.3.4. The orchestration of these cloud resources should be handled by Terraform with minimal manual configuration on your part. Please refer to the accompanying Eboard documentation to view the full workshop preparation, execution, and close out procedures: https://docs.google.com/document/d/18bhQ8ys_vuvzN6DAWv2tGSjqvdMsI9td0NMyAPoQdCw/edit?usp=sharing
