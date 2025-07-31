@@ -25,8 +25,10 @@ variable "attendee_usernames" {
   type = list(string)
 
   default = [
-    "Bob",
-    "Sally"
+    "KL",
+    "AL",
+    "MA",
+    "JL"
   ]
 }
 
