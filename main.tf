@@ -27,7 +27,13 @@ variable "attendee_usernames" {
   default = [
     "KL",
     "AL",
-    "MA",
+    "John",
+    "Bob",
+    "Sally",
+    "Saul",
+    "Tommy",
+    "Sarah",
+    "Sal",
     "JL"
   ]
 }
