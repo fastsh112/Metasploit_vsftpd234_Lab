@@ -77,6 +77,8 @@ resource "aws_instance" "kali-vm" {
   ami           = var.kali_ami
   instance_type = var.instance_type
   subnet_id     = aws_subnet.FAST-subnet.id
+
+  private_ip = "192.168.${var.attendee_number}.11"
   
   vpc_security_group_ids = [aws_security_group.FAST-sg.id]
 
