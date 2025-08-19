@@ -26,8 +26,7 @@ variable "attendee_usernames" {
 
   default = [
     "rastley",
-    "ewatson",
-    "rreynolds",
+    "rreynolds"
   ]
 }
 
