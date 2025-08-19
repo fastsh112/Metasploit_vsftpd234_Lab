@@ -28,13 +28,6 @@ variable "attendee_usernames" {
     "rastley",
     "ewatson",
     "rreynolds",
-    "mobama",
-    "scurry",
-    "sharvey",
-    "scovey",
-    "afrank",
-    "mbrown",
-    "sjobs"
   ]
 }
 
