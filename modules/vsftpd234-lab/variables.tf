@@ -56,9 +56,13 @@ variable "kali_setup_script" {
     apt install -y kali-tools-top10
     echo "kali-tools-top10 installation initiated" >> /home/kali/FAST/setup_log.txt
 
-    sudo apt-get update -y
-    sudo apt-get full-upgrade -y
-    echo "apt-get udpate & upgrade initiated" >> /home/kali/FAST/setup_log.txt
+    echo "apt-get udpate started" >> /home/kali/FAST/setup_log.txt
+    sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
+    echo "apt-get udpate completed" >> /home/kali/FAST/setup_log.txt
+
+    echo "apt-get full-upgrade started" >> /home/kali/FAST/setup_log.txt
+    sudo DEBIAN_FRONTEND=noninteractive apt-get full-upgrade -y
+    echo "apt-get full-upgrade completed" >> /home/kali/FAST/setup_log.txt
 
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y kali-desktop-xfce xorg xrdp xorgxrdp
     echo "xfce installation initiated" >> /home/kali/FAST/setup_log.txt
