@@ -24,9 +24,7 @@ resource "aws_route_table" "FAST-route-table" {
 variable "attendee_usernames" {
   type = list(string)
 
-  default = [
-    "rastley",
-    "rreynolds"
+  default = ["stephen"
   ]
 }
 
